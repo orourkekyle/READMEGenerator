@@ -38,6 +38,16 @@ const questions = [
         name: "testInstruc"
     },
     {
+        type: "input",
+        message: "Enter GitHub Username:",
+        name: "gitUser"
+    },
+    {
+        type: "input",
+        message: "Enter Email:",
+        name: "email"
+    },
+    {
         type: "checkbox",
         message: "Would you like a license for this repo?",
         choices: [
@@ -98,8 +108,8 @@ const questions = [
 //     ])
 // };
 
-// function to initialize program
-async function init() {
+// function to initialize program --add async if using array logic--
+function init() {
     // LOGIC IF USING ARRAY CONST
 
     return inquirer.prompt(questions);
@@ -115,7 +125,7 @@ async function init() {
     // } catch (err) {
     //     console.log(err);
     // }
-};
+}
 
 // function call to initialize program
 init()
