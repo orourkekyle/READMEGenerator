@@ -1,4 +1,4 @@
-# title
+# README Generator
 
   [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
@@ -15,19 +15,19 @@
 
   
   # Description:
-  ## disc
+  ## Using node.js this application prompts the user to answer questions about their project, after completion the program dynamically creates a professional README.
 
   # Install Instructions:
-  ## install
+  ## ```npm i```
 
   # Usage:
-  ## usage
+  ## Create a professional README through the console.
 
   # Contributing:
-  ## contri
+  ## Kyle O'Rourke
 
   # Tests:
-  ## test
+  ## ```npm test```
 
   # License:
   ## [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
